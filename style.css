@@ -131,13 +131,13 @@ body{
         opacity:1;
     }
     to{
-        transform: translateY(0);
+        transform: translateY(590px);
         opacity:1;
         
     }
 }
 
-.set img{
+.set>img{
     width: 80%;
 }
 .set{
