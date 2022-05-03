@@ -137,6 +137,9 @@ body{
     }
 }
 
+.set img{
+    width: 80%;
+}
 .set{
     text-align: center;
 }
