@@ -1,0 +1,167 @@
+body{
+    overflow: hidden;
+    margin-top:0px;
+    background-color: #e1d2ca;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('background.png');
+}
+@font-face {
+    font-family: "cute";
+    src: url("font/Cafe24Ssurround\ 2022-05-03\ 07_28_34.ttf");
+}
+@font-face {
+    font-family: "cute_air";
+    src: url("font/Cafe24SsurroundAir\ 2022-05-03\ 07_28_36.ttf");
+}
+.pocket{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+}
+.talking{
+    position: fixed;
+    bottom: 0px;
+    right: 100px;
+    z-index:1;
+}
+.script{
+    font-family: "cute";
+    font-size: 26px;
+    text-align: center;
+    color: #6d594e;
+    position: fixed;
+    bottom: 300px;
+    right: 160px;
+    z-index:1;
+}
+
+.logo{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 30%;
+    position: sticky;
+    top:0px;
+    
+}
+.moving_title{
+    text-align: center;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    animation: title-ani 1s ease-in-out forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+
+.text{
+    font-family: "cute";
+    font-size: 55px;
+    color: #6d594e;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -40%);
+}
+#pack{
+
+        bottom: 0px;
+    
+}
+.letterbox{
+    padding: 50px;
+    display:block;
+    height: 800px;
+    width: 1020px;
+    border-radius: 5%;
+    background-color: #e1d2ca;
+    opacity: 0;
+    margin-left: auto;
+    margin-right: auto;
+    animation: letter-ani 1s ease-in-out forwards;
+    animation-delay: 2.2s;
+    z-index:3;
+    margin-bottom: 500px;
+}
+
+.about_me{
+    overflow: auto;
+    
+    background-color: #e1d2ca;
+}
+
+#bot{
+    animation: bot-ani 0.1s linear forwards;
+    animation-delay: 2s;
+    opacity: 0;
+    z-index: 2;
+}
+@keyframes bot-ani {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@keyframes title-ani {
+    from{
+        transform: translateY(50px);
+
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes letter-ani{
+    from{
+        transform: translateY(1000px);
+        opacity:1;
+    }
+    to{
+        transform: translateY(0);
+        opacity:1;
+        
+    }
+}
+
+.set{
+    text-align: center;
+}
+
+.title{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 80px;
+    color: #6d594e;
+}
+
+.tmi{
+    text-align: center;
+    margin: 10px;
+    color: #947f74;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+}
+.info{
+    margin: 30px;
+    color: #6d594e;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 23px;
+}
+.invite{
+    color: #6d594e;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+}
+.brand{
+    width: 90%;
+}
