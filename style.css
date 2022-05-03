@@ -6,6 +6,7 @@ body{
     background-attachment: fixed;
     background-image: url('background.png');
 }
+
 @font-face {
     font-family: "cute";
     src: url("font/Cafe24Ssurround\ 2022-05-03\ 07_28_34.ttf");
