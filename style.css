@@ -131,7 +131,7 @@ body{
         opacity:1;
     }
     to{
-        transform: translateY(590px);
+        transform: translateY(0px);
         opacity:1;
         
     }
