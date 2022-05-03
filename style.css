@@ -16,6 +16,7 @@ body{
     src: url("font/Cafe24SsurroundAir\ 2022-05-03\ 07_28_36.ttf");
 }
 .pocket{
+    width: 80%;
     position: fixed;
     margin-left: auto;
     margin-right: auto;
@@ -74,15 +75,16 @@ body{
     transform: translate(-50%, -40%);
 }
 #pack{
-
-        bottom: 0px;
+    width: 80%;
+    bottom: -30px;
     
 }
 .letterbox{
+    
     padding: 50px;
     display:block;
     height: 800px;
-    width: 1020px;
+    width: 900px;
     border-radius: 5%;
     background-color: #e1d2ca;
     opacity: 0;
